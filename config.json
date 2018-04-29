@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": ""
+  },
+  "text": {
+    "more": "",
+    "intro": "* (black) --\u003e Friends from Primary School\n* (purple) --\u003e Friends from High School\n* (blue) --\u003e Friends from the University\n* (pink) --\u003e Friends from the Music School\n* (orange) --\u003e Members of family\n* (grey) --\u003e Separate group of friends\n* (other colors) --\u003e other groups of people",
+    "title": ""
+  },
+  "legend": {
+    "edgeLabel": "Different groups of friends",
+    "colorLabel": "Correlations among representatives of different groups",
+    "nodeLabel": "VK friends"
+  },
+  "features": {
+    "search": false,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": true,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
